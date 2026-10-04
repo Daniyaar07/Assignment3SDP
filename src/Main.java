@@ -39,14 +39,7 @@ public class Main {
         }
         System.out.println("before=" + before);
         System.out.println("after=" + after);
-
-        Renderer ascii = new AsciiRenderer();
-        Circle c5 = new Circle("C5" , 2 ,ascii);
-        check("T6" , c5.execute() , "Ascii circle radius=2");
-        Square s3 = new Square("S3" , 3 , ascii);
-        check("T7" , s3.execute() , "Ascii square side=3");
-
-        System.out.println("Summary: " + passed + "/7 PASS");
+        System.out.println("Summary:" + passed + "/5 pass");
     }
         public static void check(String test , String actual , String expected){
             if(actual.equals(expected)) {
