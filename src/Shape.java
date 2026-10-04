@@ -12,4 +12,5 @@ public abstract class Shape {
     public void setImplementation(Renderer renderer){
         this.renderer = renderer;
     }
+    public abstract String execute();
 }
