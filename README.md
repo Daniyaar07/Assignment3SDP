@@ -5,8 +5,7 @@ Group: SE-2527
 Topic: A - Drawing  
 Repository: https://github.com/Daniyaar07/Assignment3SDP.git
 ## Base Commit
-be79da0
-
+d63d3a4
 ## Classes
 
 | Role | Class |
@@ -29,3 +28,11 @@ execute(): `Shape.java`, implemented in `Circle.java` and `Square.java`
 setImplementation(): `Shape.java`
 
 T5 runtime switch: `Main.java`
+
+## Run
+
+Compile:
+`javac --release 17 -encoding UTF-8 -d out "@sources.txt"`
+
+Run:
+`java -cp out Main --demo`
